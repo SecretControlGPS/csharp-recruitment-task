@@ -47,11 +47,13 @@ Create a graphical user interface (GUI) where users can do the following things:
   * You can simply put the reviews in textboxes under each other.
   * Place a button which navigates back to the **Home view**.
 * **Write review view**:
-  * Show a textarea and a button where the user can submit a review for the selected movie.
+  * Show a text area and a button where the user can submit a review for the selected movie.
   * Place a button which navigates back to the **Home view**.
 
 ### Rules & hints
 * For the backend, we recommend using .NET Core Web API, but the classic Web API 2 for the .NET Framework is also allowed. We do not recommend using legacy technologies like WCF webservice.
+  * You can use any database storage you like - but at least it should be able to be hosted in a Docker Container. For simplicity, we recommend using [SQLite](https://sqlite.org/) for this project - its serverless and easy to use and you can also include your database schema as a file in your repository.
+  * 🦸 _If you stays with an RDBMS that supports SQL, using ORM technologies like EntityFramework, [Dapper](https://dapper-tutorial.net/) or at least a query builder like [SqlKata](https://sqlkata.com/) is highly appreciated._
 * For the frontend, you can choose between web (_HTML5_ with _JavaScript_ / _TypeScript_) or desktop (any .NET based, eg.: _WinForms_, _WPF_) based appication. Using a web based technology with a modern SPA framework (eg.: _Angular_, _ReactJs_) or any micro MVVM framework (eg.: _AlpineJs_) is big plus 🙂. 
 * Your application's code should be uploaded to a public Git repository which you must grant access to us. Please, include README file with basic notes on application requirements and setup - we must be able to easily build and run it by ourselves.
 * 🏖️ Relax, there's no time limit for the task (at least in reasonable limits). If you feel that the task is too much, you can skip some parts of it, and we will discuss how you would have done the remaining parts.
