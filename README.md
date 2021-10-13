@@ -8,7 +8,7 @@ solely as a backend engineer, you won't need to implement the frontend requireme
 
 ### Overview
 
-We need a little 🎥 movie database webapp (REST API + GUI), where users can 🔍 check movies and ✍️ write movie reviews.
+We need a little 🎥 movie database app (REST API + GUI), where users can 🔍 check movies and ✍️ write movie reviews.
 
 ### Specification
 
@@ -39,7 +39,7 @@ Create a graphical user interface (GUI) where users can do the following things:
   * Show a list of all movies fetched from the API.
   * The list should be similar to the wireframe inserted below, but you are allowed to come out with any design which you think suits better.<br>
   ![movie list](movie_app_list_wireframe.png)
-  * Clicking the _Write review_ button must navigate to the **Write Review view**, clicking anywhere else on the list item (eg.: poster, title) should naviage to the **Reviews view**.
+  * Clicking the _Write review_ button must navigate to the **Write Review view**, clicking anywhere else on the list item (eg.: poster, title) should navigate to the **Reviews view**.
   * Support the user with an arbitrary widget (eg.: textbox and a button) that allows adding a new movie to the database.
   * 🦸 _Filtering, ordering is an additional bonus._
 * **Reviews view**:
